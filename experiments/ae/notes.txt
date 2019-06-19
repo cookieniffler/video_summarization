@@ -1,0 +1,12 @@
+### Theory
+# Video dataset needs to be annotated too
+# First, Encoder :
+# Then, Summarizer :
+# Then, Decoder :
+###
+
+### Experiments
+## Experiment_A
+
+
+###

@@ -23,7 +23,7 @@ from tensorboardX import SummaryWriter
 
 from dataloader import *
 from mapper import *
-from model import *
+from autoencoder import *
 from trainer import Trainer
 from evaluator import Evaluator
 
@@ -54,7 +54,7 @@ def main(args):
         config_dict = yaml.safe_load(stream)
         config = mapper(**config_dict)
 
-    model = CNN(config)
+    model = Autoencoder(config)
     plt.ion()
 
     if config.distributed:
